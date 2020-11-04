@@ -30,6 +30,7 @@ def escolher_pokemon_inicial(player):
             print("Escolha inválida!")
 
 player = Player("Luis")
+player.mostrar_dinheiro()
 player.capturar(PokemonFogo("Charmander", level=1))
 
 inimigo1 = Inimigo(nome="Gary", pokemons=[PokemonAgua("Squirtle", level=1)])
