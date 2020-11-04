@@ -40,6 +40,7 @@ class Pessoa:
         else:
             print("{} não têm nenhum pokemon".format(self))
 
+
 class Player(Pessoa):
     tipo = "player"
 
@@ -60,6 +61,6 @@ class Inimigo(Pessoa):
 
 
 
-meu_inimigo = Inimigo(nome="F", pokemons=[PokemonEletrico("Raichu"), PokemonAgua("Squirtle")])
-print(meu_inimigo)
-meu_inimigo.mostrar_pokemons() 
+# meu_inimigo = Inimigo(nome="F", pokemons=[PokemonEletrico("Raichu"), PokemonAgua("Squirtle")])
+# print(meu_inimigo)
+# meu_inimigo.mostrar_pokemons() 
